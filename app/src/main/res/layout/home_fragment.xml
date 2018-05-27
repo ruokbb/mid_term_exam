@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/help"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:src="@mipmap/help"
+        android:background="#98fa"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42sp"
+            android:background="@drawable/login">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="20sp"
+                android:layout_height="35sp"
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:src="@mipmap/notice"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邮 问"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="24sp"
+                android:layout_height="35sp"
+                android:clickable="true"
+                android:layout_marginRight="13dp"
+                android:src="@mipmap/choise"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/qatablayout"
+            app:tabPadding="10sp"
+            app:tabPaddingStart="20dp"
+            app:tabGravity="fill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="#6898ff"
+            app:tabIndicatorHeight="4dp"
+            app:tabIndicatorColor="#4898ff"
+            >
+
+
+
+        </android.support.design.widget.TabLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/qaviewpage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

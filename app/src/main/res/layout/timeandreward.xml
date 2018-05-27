@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="220dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:id="@+id/back"
+            android:textColor="#7195fa"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="求助设置"
+            android:layout_gravity="center"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布"
+            android:id="@+id/publish"
+            android:textColor="#7195fa"
+            android:layout_gravity="end"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+    android:layout_marginTop="52dp"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="最晚完成任务至："
+            />
+
+        <TextView
+            android:id="@+id/time"
+            android:text="2018年6月1日  18时  24分"
+            android:layout_width="wrap_content"
+            android:textColor="#7195fa"
+            android:layout_marginLeft="11dp"
+            android:layout_height="match_parent" />
+        
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#dddddd"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="奖励积分数额为："/>
+
+        <TextView
+            android:id="@+id/reward"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="11dp"
+            android:text="5积分"
+            android:textColor="#7195fa"/>
+
+
+    </LinearLayout>
+    
+</LinearLayout>
