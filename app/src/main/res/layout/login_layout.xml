@@ -88,6 +88,7 @@
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
              android:layout_marginTop="10sp"
+             android:inputType="numberPassword"
              android:layout_marginLeft="22sp"
              android:layout_marginRight="22sp"
              android:hint="请输入身份证后六位"/>
