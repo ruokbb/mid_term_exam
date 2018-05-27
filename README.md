@@ -6,3 +6,13 @@
 （五）实现邮问的求助功能，包括kind与tag的选择，基于numberpicker封装的时间选择器，积分的选择，Editetext对字数的限定等<br>
 
 ## app截图
+![](http://p53yx1ia4.bkt.clouddn.com/login.gif)<br>
+![](http://p53yx1ia4.bkt.clouddn.com/QA.gif)<br>
+![](http://p53yx1ia4.bkt.clouddn.com/kind.gif)<br>
+![](http://p53yx1ia4.bkt.clouddn.com/content.gif)<br>
+![](http://p53yx1ia4.bkt.clouddn.com/tag.gif)<br>
+![](http://p53yx1ia4.bkt.clouddn.com/time.gif)<br>
+![](http://p53yx1ia4.bkt.clouddn.com/reward.gif)<br>
+![](http://p53yx1ia4.bkt.clouddn.com/finish.gif)<br>
+
+
